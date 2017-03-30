@@ -3,6 +3,10 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+img {
+	max-width: 100%;
+}
+
 /*customize name and role*/
 .name, .role {
 	text-align: right;
@@ -37,4 +41,19 @@ body {
 	margin-right: auto;
 	float: left;
 	text-align: center;
+}
+
+/* media queries here for major and minor breakpoints*/
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: navy;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+	.role {
+		font-size: 10px;
+		margin-top: 5px;
+	}
 }
